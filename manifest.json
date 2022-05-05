@@ -1,0 +1,19 @@
+{
+  "name": "Chess.com Center Board",
+  "description": "Centers the board and sidebard by removing the right-side ad.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.chess.com/*"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
