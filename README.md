@@ -1,5 +1,5 @@
 # Chess.com-Center-Board
-Removes the ad on the right side of the screen whenever it is present in order to center the chessboard along with the sidebar.
+A chrome extention that removes the ad on the right side of the screen whenever it is present in order to center the chessboard along with the sidebar.
 
 ## How to install
 1. After downloading the folder in a desired location open the following page in chrome:
